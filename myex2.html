@@ -23,7 +23,11 @@
     };
 
     function ulThree(obj) {
+      if(typeof obj !== 'object' || obj === null || !Object.keys(obj).length) return
+      let ul = document.createElement('ul');
+      for(let key in obj) {
 
+      }
     }
   </script>
 </body>
